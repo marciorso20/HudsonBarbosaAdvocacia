@@ -257,7 +257,7 @@ nav.show ul.grid {
 
 /* toggle menu */
 .toggle {
-  color: var(--base-color);
+  color: #FFE164;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -298,7 +298,7 @@ nav.show div.icon-close {
   content: '';
   height: 100%;
   width: 100%;
-  background: var(--base-color-second);
+  background: var(--base-color-second); 
   position: absolute;
   top: -16.8%;
   left: 16.7%;
