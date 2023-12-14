@@ -60,6 +60,18 @@ body {
   text-align: left;
 }
 
+.titleMain{
+  font: 700 1.500rem var(--title-font);
+  color: var(--text-color);
+  -webkit-font-smoothing: auto;
+  text-align: left;
+}
+
+//configuração do p
+.paragrafo{
+  text-align: left;
+}
+
 .titleMenu{
   color: #daa520 ;
   font-weight: bold;
@@ -128,9 +140,7 @@ body {
   font-size: var(--subtitle-font-size);
 }
 
-.paragrafo{
-  text-align: left;
-}
+
 
 .section header {
   margin-bottom: 4rem;
