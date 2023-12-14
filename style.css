@@ -696,5 +696,25 @@ footer .social a:hover {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
+
+  header{
+    margin-bottom: 10px;
+  }
+
+  .container {
+    max-width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #home .container {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .container .text .title{
+    text-align: justify;
+  }
 }
 /* medium devices: 767 > */
