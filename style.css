@@ -57,6 +57,7 @@ body {
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--text-color);
   -webkit-font-smoothing: auto;
+  text-align: left;
 }
 
 .titleMenu{
