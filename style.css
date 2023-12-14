@@ -344,7 +344,7 @@ nav.show div.icon-close {
 }
 
 .titleMain{
-  font: 700 1.670rem var(--title-font);
+  font: 700 1.970rem var(--title-font);
   color: var(--text-color);
   -webkit-font-smoothing: auto;
   text-align: center;
@@ -663,7 +663,6 @@ footer .social a:hover {
     max-width: 24rem;
     text-align: left;
   }
-
   /* about */
   #about .container {
     margin: 0 auto;
@@ -718,25 +717,11 @@ footer .social a:hover {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
   }
-
-  header{
-    margin-bottom: 10px;
-  }
-
-  .container {
-    max-width: 992px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #home .container {
-    grid-auto-flow: column;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-
-  #home .container .text .title{
-    text-align: justify;
-  }
 }
 /* medium devices: 767 > */
+@media (min-width: 408px) {
+  :root {
+    --title-font-size: 2.25rem;
+    --subtitle-font-size: 1.125rem;
+  }
+}
