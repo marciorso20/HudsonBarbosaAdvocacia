@@ -128,6 +128,10 @@ body {
   font-size: var(--subtitle-font-size);
 }
 
+.paragrafo{
+  text-align: left;
+}
+
 .section header {
   margin-bottom: 4rem;
 }
