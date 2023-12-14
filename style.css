@@ -691,14 +691,10 @@ footer .social a:hover {
 }
 /* large devices: 1023 > */
 /* large devices: 992 > */
-@media (min-width: 990px) {
+@media (min-width: 992px) {
   :root {
     --title-font-size: 2.25rem;
     --subtitle-font-size: 1.125rem;
-  }
-
-  #home h2 .title{
-    text-align: justify;
   }
 }
 /* medium devices: 767 > */
