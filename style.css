@@ -697,14 +697,6 @@ footer .social a:hover {
     --subtitle-font-size: 1.125rem;
   }
 
-  main .section {
-    margin-top: 10rem;
-  }
-
-  .section {
-    padding: 10rem 0;
-  }
-
   #home h2 .title{
     text-align: justify;
   }
