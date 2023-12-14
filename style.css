@@ -344,7 +344,7 @@ nav.show div.icon-close {
 }
 
 .titleMain{
-  font: 700 1.690rem var(--title-font);
+  font: 700 1.670rem var(--title-font);
   color: var(--text-color);
   -webkit-font-smoothing: auto;
   text-align: center;
