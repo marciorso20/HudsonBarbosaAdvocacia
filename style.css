@@ -700,6 +700,59 @@ footer .social a:hover {
     align-items: center;
     justify-content: space-between;
   }
+
+    /*====  VIDEOS ============================ */
+  #videos {
+    background: white;
+  }
+
+  .videos-grid {
+    display: grid;
+    gap: 2rem;
+  }
+
+  /* Card do vídeo */
+  .video-card {
+    background: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* vídeo ocupa tudo */
+  .video-card video {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    background: #000;
+  }
+
+  .video-card p {
+    margin: 1rem 0;
+    font-weight: 600;
+    color: var(--title-color);
+    text-align: center;
+    font-family: var(--title-font);
+  }
+
+
+  /* Desktop */
+  @media (min-width: 992px) {
+    .videos-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: 600px) and (max-width: 991px) {
+    .videos-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
 }
 /* large devices: 1023 > */
 /* large devices: 992 > */
